@@ -1,0 +1,8 @@
+https://wiremock.org/docs/download-and-installation/
+
+Executando o wiremock
+
+java -jar wiremock-standalone-3.3.1.jar --port 8082
+
+Requisições via Postman para o Wiremock sem precisar subir a aplicação.
+GET -> {{url}}:8082/addresses/38400000

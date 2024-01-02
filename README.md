@@ -30,3 +30,16 @@ proposta em seu livro ```Clean Architecture: A Craftsman’s Guide to Software S
 ## Fluxo da estrutura do projeto
 
 ![alt text](https://github.com/juliancambraia/cleanarch/blob/main/images/fluxo.png?raw=true)
+
+8. Subindo os containters
+   Docker Compose, Kafka, Mongo Express e Mongodb
+
+```docker-compose up```
+
+9. Acessando o MongoDB (container docker)
+   ```docker exec -it <id-mongo> /bin/bash```
+   ```mongosh -u root -p```
+10. Listando a base de dados hexagonal
+11. use hexagonal
+12. show collections
+13. db.customers.find();
