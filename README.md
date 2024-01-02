@@ -39,7 +39,7 @@ proposta em seu livro ```Clean Architecture: A Craftsman’s Guide to Software S
 9. Acessando o MongoDB (container docker)
    ```docker exec -it <id-mongo> /bin/bash```
    ```mongosh -u root -p```
-10. Listando a base de dados hexagonal
-11. use hexagonal
-12. show collections
-13. db.customers.find();
+10. Acessando a base de dados hexagonal ```use hexagonal```
+11. Listando as collection da base hexagonal ```show collections```
+12. Consultando o documento customers ```db.customers.find();```
+
